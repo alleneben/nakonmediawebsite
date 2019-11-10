@@ -38,10 +38,12 @@ li {
     text-align: center;
     order: 3;
     display: none;
+    cursor: pointer;
 }
 .logo, .logo-lock {
     color: #ff9600;
     font-weight: bolder;
+    cursor: pointer;
 }
 .logo-lock {
     margin-bottom: 20px;
@@ -54,9 +56,11 @@ li {
     font-weight: bolder;
     border-radius: 5px;
     margin-left: 10px;
+    cursor: pointer;
 }
 .loginsignup span {
     color: #000000;
+    cursor: pointer;
 }
 .title {
     font-weight: 900;
