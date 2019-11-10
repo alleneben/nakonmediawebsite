@@ -1,0 +1,103 @@
+
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    margin: 0 0 20px 0;
+    font-size: 14px;
+    font-weight: 800;
+    flex: 0 1 auto;
+    padding: 10px 0;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: #000000;
+}
+li {
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+}
+.logo, .logo-lock {
+    color: #ff9600;
+    font-weight: bolder;
+}
+.logo-lock {
+    margin-bottom: 20px;
+}
+.loginsignup button{
+    background-color: #ffffff;
+    border: 2px solid #dfc3ae;
+    padding: 10px;
+    color: #ff9600;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.loginsignup span {
+    color: #000000;
+}
+.title {
+    font-weight: 900;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.main {
+    background-color: #292b37;
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0;
+    padding: 50px;
+}
+.content {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #1c1f26;
+    padding: 30px 20px;
+    border-radius: 3px;
+    flex: 0.5 600px;
+    margin: 20px;
+}
+
+
+@media all and (min-width: 600px){
+    .menu {
+        justify-content: center;
+    }
+}
+
+@media all and (min-width: 900px){
+    li {
+        display: block;
+        width: auto;
+        order: 1;
+        padding: 0 15px;
+    }
+}
